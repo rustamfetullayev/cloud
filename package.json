@@ -1,0 +1,46 @@
+{
+  "name": "cloud",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --open --mode development",
+    "build": "webpack --mode production"
+  },
+  "keywords": [],
+  "author": "Rustam Fetullayev",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/plugin-proposal-class-properties": "^7.12.1",
+    "@babel/plugin-syntax-dynamic-import": "^7.8.3",
+    "@babel/plugin-transform-runtime": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "@babel/preset-react": "^7.12.10",
+    "autoprefixer": "^10.2.0",
+    "babel-loader": "^8.2.2",
+    "card-validator": "^8.1.1",
+    "classnames": "^2.2.6",
+    "copy-webpack-plugin": "^6.3.2",
+    "css-loader": "^5.0.1",
+    "email-validator": "^2.0.4",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^4.5.1",
+    "node-sass": "^5.0.0",
+    "postcss": "^8.2.3",
+    "postcss-loader": "^4.1.0",
+    "react-input-mask": "^2.0.4",
+    "react-spinners": "^0.10.4",
+    "sass-loader": "^10.1.0",
+    "style-loader": "^2.0.0",
+    "sweetalert2": "^10.13.0",
+    "url-loader": "^4.1.1",
+    "webpack": "^4.41.3",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.9.0"
+  },
+  "dependencies": {
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  }
+}

@@ -1,0 +1,18 @@
+.loader-main {
+  top: 0;
+  left: 0;
+  &.md {
+    z-index: 997;
+    position: absolute;
+  }
+  &.lg {
+    z-index: 99999;
+    position: fixed;
+  }
+  &.transparent {
+    background-color: $bg-white-70;
+  }
+  &.white {
+    background-color: $bg-white;
+  }
+}

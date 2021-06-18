@@ -1,0 +1,23 @@
+//Buttons
+.btn {
+  box-shadow: none !important;
+  &:not(:last-child) {
+    margin-right: 1rem;
+  }
+  &.btn-default {
+    padding: 0.375rem 1.75rem;
+    background-color: $bg-default;
+    color: $text-white;
+  }
+  &.btn-outline-default {
+    padding: 0.375rem 1.75rem;
+    background-color: $bg-white;
+    border-color: $br-default;
+    color: $text-default;
+  }
+}
+
+//Texts
+.text-default {
+  color: $text-default;
+}
